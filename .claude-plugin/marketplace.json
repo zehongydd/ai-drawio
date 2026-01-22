@@ -1,0 +1,21 @@
+{
+  "name": "ai-drawio",
+  "owner": {
+    "name": "Axton Liu",
+    "email": "hey@axtonliu.com"
+  },
+  "metadata": {
+    "description": "AI-powered draw.io diagram generator with browser preview. Generate flowcharts, architecture diagrams, mind maps, and technical illustrations from natural language descriptions.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ai-drawio",
+      "description": "drawio-diagram-generator",
+      "source": "./",
+      "skills": [
+        "./skills/diagram-generator"
+      ]
+    }
+  ]
+}
